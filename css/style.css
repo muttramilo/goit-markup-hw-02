@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap");
+
+:root{
+    --iriscolor: #4d5ae5 ;
+    --navyblue:  #2e2f42;
+    --black: black;
+    --oceancolor: #2196f3;
+    --white: white;
+    --slate: #434455
+
+}
+
+/*Header*/
+
+.link-logo{
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 30px;
+    line-height: 1.5;
+}
+.web-logo{
+    color: var(--iriscolor);
+}
+
+.studio-logo{
+    color: var(--navyblue);
+
+}
+.navigation .pages{
+    color: var(--black);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+}
+
+.navigation {
+
+    list-style-type: none;
+}
+
+.sec1-images {
+
+    list-style-type: none;
+}
+
+.member {
+
+    list-style-type: none;
+}
+.navbar {
+
+    list-style-type: none;
+}
+
+.navigation .pages:hover,
+.navigation .pages:focus,
+.navigation .pages.option,
+.contact .info:hover,
+.contact .info:focus {
+
+        color: var(--oceancolor);
+}
+
+        
+
+.contact .info{
+    color: var(--black);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.15;
+    letter-spacing: 0.05em;
+}
+.background{
+    background-color: var(--navyblue);
+}
+.h1-title{
+    color: var(--white);
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+}
+
+.order-button{
+    cursor: pointer;
+    border-color: transparent;
+    letter-spacing: 0.05em;
+    font-family: inherit;
+}
+.order-button.primary{
+    background-color: var(--oceancolor);
+    color: var(--white);
+    font-weight: 800;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+}
+.order-button.primary:hover,
+.order-button.primary:focus{
+    background-color: hotpink;
+}
+.about{
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--slate);
+
+}
+.section-title{
+
+    text-align: center;
+    color: var(--iriscolor);
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 1.5;
+}
+.position{
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--slate);
+}
+
+/*page1footer*/
+
+.footer{
+    background-color: var(--navyblue);
+    
+}
+.studio-logo2{
+    color: var(--white);
+}
+.paragraph{
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--white);
+}
+
+/*Portfolio-Section1*/
+
+.all-button{
+
+    background-color: var(--iriscolor);
+    color: var(--white);
+    cursor: pointer;
+    font-family: inherit;
+    text-decoration: none;
+    font-weight: 800;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+}
+.nav-button{
+    
+    color: var(--iriscolor);
+    text-decoration: none;
+    font-weight: 800;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    cursor: pointer;
+    font-family: inherit;}
+
+    
+    
