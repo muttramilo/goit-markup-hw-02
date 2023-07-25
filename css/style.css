@@ -9,44 +9,71 @@
     --white: white;
     --slate: #434455;
     --cloud: #f4f4fd;
+    --ocean: #404bbf;
+    --cornflower: #e7e9fc;
 
 }
 
 body{
     font-family: "Roboto", sans-serif;
     font-size: 14px;
+    color: var(--slate);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
 }
+/*h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+html{
+box-sizing: border-box;
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    }*/
 
 /*Header*/
 
 .link-logo{
     text-decoration: none;
     font-family: "Raleway", sans-serif;
-    font-size: 30px;
-    line-height: 1.5;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.54px;
 }
 .web-logo{
     color: var(--iriscolor);
 }
-.teammember{
+.section-grey{
     background-color: var(--cloud);
 }
 
 .studio-logo{
     color: var(--navyblue);
-    margin: -5px;
-
 }
-.navigation .pages{
+.team-name{
+
+    color: var(--navyblue);
+    /* text-align: center; */
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+}
+.pages{
     color: var(--black);
     text-decoration: none;
     font-weight: 500;
-    font-size: 15px;
-    line-height: 1.5;
-    letter-spacing: 0.05em;
 }
 
-.navigation {
+.list {
 
     list-style-type: none;
     margin: 0;
@@ -64,16 +91,16 @@ body{
 
     list-style-type: none;
 }
-.navbar {
+.list {
 
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.navigation .pages:hover,
-.navigation .pages:focus,
-.navigation .pages.option,
+.list .pages:hover,
+.list .pages:focus,
+.list .pages.option,
 .contact .info:hover,
 .contact .info:focus {
 
@@ -83,69 +110,63 @@ body{
         
 
 .contact .info{
-    color: var(--black);
+    color: var(--slate);
     text-decoration: none;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 1.15;
-    letter-spacing: 0.05em;
 }
-.background{
+.hero{
     background-color: var(--navyblue);
 }
 .h1-title{
     color: var(--white);
-    font-size: 50px;
-    font-weight: 800;
+    font-size: 56px;
+    font-weight: 700;
     text-align: center;
-    line-height: 1.5;
-    letter-spacing: 0.05em;
+    line-height: 60px;
+    letter-spacing: 1.12px;
 }
 
 .order-button{
     cursor: pointer;
-    border-color: transparent;
-    letter-spacing: 0.05em;
+    border: none;
     font-family: inherit;
 }
 .order-button.primary{
     background-color: var(--iriscolor);
     color: var(--white);
-    font-weight: 800;
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.05em;
+    border-radius: 4px;
 }
 .order-button.primary:hover,
 .order-button.primary:focus{
-    background-color: hotpink;
+    background-color: #404bbf;
 }
-.about{
-    font-weight: 800;
-    font-size: 14px;
-    line-height: 1.5;
-    color: var(--slate);
+
+.criteria{
+
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.4px;
 
 }
 .section-title{
 
-    color: var(--black);
-    font-weight: 900;
+    color: var(--navyblue);
+    text-align: center;
+    font-weight: 700;
     font-size: 36px;
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
+    line-height: 40px;
+    letter-spacing: 0.72px;
 }
 .employee{
 
     margin: 0;
     padding: 0;
 }
-.position{
-    font-weight: 300;
-    font-size: 15px;
-    line-height: 1.5;
-    color: var(--slate);
-}
+/*.position{
+    text-align: center;
+ }*/
 
 /*page1footer*/
 
@@ -155,37 +176,47 @@ body{
 }
 .studio-logo2{
     color: var(--white);
-    margin: -5px;
 }
-.paragraph{
-    font-weight: 800;
-    font-size: 14px;
-    line-height: 1.5;
+.footer-text{
     color: var(--white);
 }
 
 /*Portfolio-Section1*/
 
-.all-button{
+.filter-button:hover, .filter-button:focus, .active-filter{
 
-    background-color: var(--iriscolor);
+    color: white;
+    background: var(--ocean);
+    border-color: var(--ocean);
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12) 0px 2px 1px 0px rgba(0, 0, 0, 0.08) 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+.active-filter{
     color: var(--white);
+    font-size: 16px;
+    border: 1px solid var(--cornflower);
+    border-radius: 4px;
+    letter-spacing: 0.05em;
     cursor: pointer;
     font-family: inherit;
-    text-decoration: none;
-    font-weight: 800;
-    line-height: 1.5;
-    letter-spacing: 0.05em;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+
 }
-.nav-button{
+
+.filter-button{
     
     color: var(--iriscolor);
-    text-decoration: none;
-    font-weight: 800;
-    line-height: 1.5;
+    font-size: 16px;
+    border: 1px solid var(--cornflower);
+    border-radius: 4px;
     letter-spacing: 0.05em;
     cursor: pointer;
-    font-family: inherit;}
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+}
 
     
     
