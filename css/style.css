@@ -4,9 +4,9 @@
 :root{
     --iriscolor: #4d5ae5 ;
     --navyblue:  #2e2f42;
-    --black: black;
+    --black: #000000;
     --oceancolor: #2196f3;
-    --white: white;
+    --white: #ffffff;
     --slate: #434455;
     --cloud: #f4f4fd;
     --ocean: #404bbf;
